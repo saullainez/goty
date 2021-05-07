@@ -1,4 +1,31 @@
-# Goty
+# GotyApp
+Aplicacion web desarrollada en Angular.
+
+ # Funcionalidad
+ * La aplicación permite votar por el mejor juego del año, los resultados se observan en tiempo real.
+ 
+ # Lo que aprendí
+ * Gráficos con Angular.
+ * Uso de AngularFire2 - Librería oficial de angular para conectarse a Firebase.
+ * Firebase functions
+ * Firestore.
+ * Firebase Hosting.
+
+  ------------------------------------------------------------
+ # GotyApp
+ Web application developed in Angular.
+
+ # Functionality
+ * The application allows you to vote for the best game of the year, the results are observed in real time.
+
+ # What I Learned
+ * Graphics with Angular.
+ * How to use AngularFire2 - Angular's official library to connect to Firebase.
+ * Firebase functions
+ * Firestore.
+ * Firebase Hosting.
+
+ ------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
