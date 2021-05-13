@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-grafico-barra-horizontal',
@@ -7,23 +7,7 @@ import { Component } from '@angular/core';
 })
 export class GraficoBarraHorizontalComponent {
 
-  results: any[] = [
-    {
-      "name": "Juego 1",
-      "value": 20
-    },
-    {
-      "name": "Juego 2",
-      "value": 10
-    },
-    {
-      "name": "Juego 3",
-      "value": 40
-    }
-  ];
-  multi: any[];
-
-
+  @Input() results: any[] = [];
   // options
   showXAxis = true;
   showYAxis = true;
